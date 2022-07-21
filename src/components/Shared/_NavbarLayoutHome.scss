@@ -1,0 +1,28 @@
+#NavbarHome{
+    background: linear-gradient(260.59deg, #2B4F7F 5.38%, #13254B 27.86%, #36335E 54.15%, #101A37 82.57%) !important;
+    color: white !important;
+    .navbar-toggler{
+        border-color: transparent !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+
+    .offcanvas-body{
+        background: #101A37 !important;
+        list-style: none;
+
+        
+    }
+
+    .item{
+        color: red !important;
+    }
+
+    .item:hover{
+        color: #36335E;
+    }
+}

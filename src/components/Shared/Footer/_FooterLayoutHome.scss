@@ -1,0 +1,15 @@
+#FooterHome{
+    background:rgb(35, 40, 44) !important;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: white;
+    .navbar-toggler{
+        border-color: transparent !important;
+    }
+
+    .navbar-toggler:focus {
+        text-decoration: none;
+        outline: 0;
+        box-shadow: none;
+    }
+}

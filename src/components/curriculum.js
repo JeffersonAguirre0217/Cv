@@ -204,7 +204,7 @@ function Curriculum() {
                                             </a>
                                         </div>
                                         <div className='text-center'>
-                                            <a className='btn btno-primary' disabled={true}>
+                                            <a href='https://firebasestorage.googleapis.com/v0/b/curriculum-60b8a.appspot.com/o/pdf%2FJefferson_Aguirre_cv.pdf?alt=media&token=fa99ebf8-c625-413a-b962-ecf43c7fcd55' target={'_blank'} className='btn btno-primary' disabled={true}>
                                                Descargar
                                             </a>
                                         </div>

@@ -12,37 +12,49 @@ function Curriculum() {
     const education = [
             {
                 year: '2017-2021',
-                tite: 'Tecnología en desarrollo de software',
+                tilte: 'Tecnología en desarrollo de software',
                 duration: null,
                 intitution: 'Intituto Superio de Patrimonio Yavirac'
             },
             {
+                year:'2020',
+                tilte: 'GUx: The evidence-Based Redesign',
+                duration: '40h',
+                intitution: 'Udemy'
+            },
+            {
+                year:'2020',
+                tilte: 'Marketing digital',
+                duration: '40h',
+                intitution: 'Google'
+            },
+            {
                 year: '2017-2018',
-                tite: 'Licencia Profesional Tipo C',
+                tilte: 'Licencia Profesional Tipo C',
                 duration: null,
                 intitution: 'Intituto Superio Mayor Pedro Travesari'
             },
             {
                 year: '2017',
-                tite: 'Habilidades de vida',
+                tilte: 'Habilidades de vida',
                 duration: '80h',
                 intitution: 'CONQUITO'
             },
             {
                 year: '2017',
-                tite: 'Atención al cliente y Marketing',
+                tilte: 'Atención al cliente y Marketing',
                 duration: '20h',
                 intitution: 'Coporación Lideres'
             },
             {
                 year: '2017',
-                tite: 'Ofimática',
+                tilte: 'Ofimática',
                 duration: '28h',
                 intitution: 'Infotraining'
             },
             {
                 year: '2017',
-                tite: 'Cajero Comerciales',
+                tilte: 'Cajero Comerciales',
                 duration: '28h',
                 intitution: 'Cámara de Comercio de Quito'
             }     
@@ -57,7 +69,7 @@ function Curriculum() {
                 <div className='descripcion'>
                     <small><b>Año: {stadies.year}</b></small>
                     <div>
-                        <h5><b>Titulo:</b> {stadies.tite} </h5>
+                        <h5><b>Titulo:</b> {stadies.tilte} </h5>
                         <h6><b>Intituión: </b>{stadies.intitution}</h6>
                         <h6 hidden={stadies.duration != null ? false : true}><b>Duración:</b> {stadies.duration}</h6>
                     </div>
@@ -204,7 +216,7 @@ function Curriculum() {
                                             </a>
                                         </div>
                                         <div className='text-center'>
-                                            <a href='https://firebasestorage.googleapis.com/v0/b/curriculum-60b8a.appspot.com/o/pdf%2FJefferson_Aguirre_cv.pdf?alt=media&token=fa99ebf8-c625-413a-b962-ecf43c7fcd55' target={'_blank'} className='btn btno-primary' disabled={true}>
+                                            <a href='https://firebasestorage.googleapis.com/v0/b/curriculum-60b8a.appspot.com/o/pdf%2FJefferson_Aguirre_Curriculum_PDF.pdf?alt=media&token=185c5eb3-e6ea-4c38-bc25-29b7b45fdbb9' target={'_blank'} className='btn btno-primary' disabled={true}>
                                                Descargar
                                             </a>
                                         </div>

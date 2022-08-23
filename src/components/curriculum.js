@@ -1,3 +1,4 @@
+import React from 'react';
 import './curriculum.scss';
 import NavbarHome from './Shared/_NavbarLayoutHome';
 import FooterHome from './Shared/Footer/_FooterLayoutHome';
@@ -70,7 +71,7 @@ function Curriculum() {
                     <small><b>Año: {stadies.year}</b></small>
                     <div>
                         <h5><b>Titulo:</b> {stadies.tilte} </h5>
-                        <h6><b>Intitución: </b>{stadies.intitution}</h6>
+                        <h6><b>Institución: </b>{stadies.intitution}</h6>
                         <h6 hidden={stadies.duration != null ? false : true}><b>Duración:</b> {stadies.duration}</h6>
                     </div>
                 </div>

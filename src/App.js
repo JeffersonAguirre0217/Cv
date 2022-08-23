@@ -1,3 +1,4 @@
+import React from 'react';
 import Curriculum from './components/curriculum';
 import './app.scss';
 

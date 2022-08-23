@@ -1,3 +1,4 @@
+import React from 'react';
 import './_FooterLayoutHome.scss';
 
 function FooterLayoutHome() {
